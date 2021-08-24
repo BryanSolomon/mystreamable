@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <title>Page Not Found | Streamable</title>
+    <style>
+        /* mobile */
+        @media (max-width: 768px) {
+            .streamableLogo {
+                width: 200px;
+            }
+        }
+
+        /* non-mobile */
+        @media (min-width: 768px) {}
+
+        body {
+            background: #000 url('./images/movie-show-collage-darken-85.png') no-repeat top center fixed;
+            background-size: cover;
+        }
+
+        .hero {
+            min-height: 100vh;
+        }
+
+        .blue-btn,
+        .blue-btn:hover {
+            background: #1dadff;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top"></div>
+    <!-- todo: maybe display navbar if the user is logged in, otherwise don't display navbar?? -->
+    <div class="hero d-flex h-100">
+        <div class="mx-auto d-flex align-items-center">
+            <div class="row">
+                <div class="col">
+                    <div class="row mt-5 text-center">
+                        <div class="col">
+                            <img src="./images/streamable-white.png" class="streamableLogo">
+                        </div>
+                    </div>
+                    <div class="row text-center text-white mt-5">
+                        <div class="col">
+                            <h1>Page not found.</h1>
+                        </div>
+                    </div>
+                    <div class="row text-center text-white">
+                        <div class="col">
+                            <h4>This page has either been moved or does not exist.</h4>
+                        </div>
+                    </div>
+                    <div class="row text-center text-white mt-5">
+                        <div class="col">
+                            <a href="../" class="btn btn-lg blue-btn">Go Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
