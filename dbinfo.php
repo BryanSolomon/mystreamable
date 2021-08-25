@@ -1,9 +1,8 @@
 <?php
-$servername = $_ENV['SERVER_NAME'];
-$username = $_ENV['USERNAME'];
-$password = $_ENV['PASSWORD'];
-$dbname = $_ENV['DATABASE'];
-print($servername . $username . $password . $dbname);
+$servername = "remotemysql.com";
+$username = "RN1wqVCQQG";
+$password = "vq4ovQaRVQ";
+$dbname = "RN1wqVCQQG";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if (!$conn) {
