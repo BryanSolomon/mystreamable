@@ -3,6 +3,7 @@ $servername = $_ENV['SERVER_NAME'];
 $username = $_ENV['USERNAME'];
 $password = $_ENV['PASSWORD'];
 $dbname = $_ENV['DATABASE'];
+print($servername . $username . $password . $dbname);
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if (!$conn) {
